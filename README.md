@@ -32,21 +32,29 @@
 
 <div align="center">
 
-### As imagens do produto devem ter 4 imagens.
+<div align="left"
 
-### O slide abaixo dos produtos deve conter 3 imagens 1440x450px.
+As imagens do produto devem ter 4 imagens.
 
-### Este ecommerce não está conectado a um banco de dados (mas isso pode ser alterado).
+O slide abaixo dos produtos deve conter 3 imagens 1440x450px.
 
-### Após preencher os dados na tela de confirmação, as informações são enviadas via WhatsApp com link personalizado
+Este ecommerce não está conectado a um banco de dados (mas isso pode ser alterado).
 
-#### Product sldie images must have 4 images.
+Após preencher os dados na tela de confirmação, as informações são enviadas via WhatsApp com link personalizado.
 
-#### The slide below the products must have 3 images 1440x450px.
+</div>
 
-#### This ecommerce is not connected to a database (but this can be changed).
+#
 
-#### After filling in the details on the confirmation screen, the information is sent via WhatsApp with a personalized link
+<div align="left">
+
+Product sldie images must have 4 images.
+
+The slide below the products must have 3 images 1440x450px.
+
+This ecommerce is not connected to a database (but this can be changed).
+
+After filling in the details on the confirmation screen, the information is sent via WhatsApp with a personalized link
 
 </div>
 
