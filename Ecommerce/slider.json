@@ -1,0 +1,14 @@
+[
+    {
+        "link": "#home",
+        "img": "./img/bannersecurity.png"
+    },
+    {
+        "link": "#home",
+        "img": "./img/bannerpcgamer.png"
+    },
+    {
+        "link": "#home",
+        "img": "./img/bannerupgrade.png"
+    }
+]

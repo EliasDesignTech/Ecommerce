@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce</title>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="logo-loading">
+            <p>Loading...</p>
+        </div>
+        <div class="spinner"></div>
+    </div>
+    
+    <main>
+        <header class="navbar">
+            <button class="btn-menu-mobile"><i class="bi bi-list"></i></button>
+            <div class="logo-header">
+                <h1><i class="bi bi-shop"></i>Ecommerce</h1>
+                <span><i class="bi bi-shop"></i></span>
+            </div>
+            <div class="items-nav">
+                <div class="search-container">
+                    <div class="search">
+                        <input type="text" id="searchInput" placeholder="Pesquisar por nome, categoria ou marca" maxlength="40">
+                        <button onclick="searchProducts()"><i class="bi bi-search"></i></button>   
+                    </div>
+                </div>
+                <div class="btn-navbar">
+                    <button class="search-btn-mobile"><i class="bi bi-search"></i></button>
+                    <button class="btn-menu"><i class="bi bi-list"></i></button>
+                    <button onclick="openCart()" class="btn-cart-open"><i class="bi bi-cart3"></i><span id="cart-count"></span></button>
+                </div>
+
+                <div class="container-menu">
+                    <button class="close-menu"><i class="bi bi-arrow-right"></i></button>
+                    <div class="logo-menu"><i class="bi bi-shop"></i></div>
+                    <button class="theme-toggle"><i class="bi bi-moon-fill"></i></button>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <div class="sub-menu">
+                        <a href="#">Services<i class="bi bi-caret-down-fill"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="">Support <i class="bi bi-whatsapp"></i></a>
+                            <a href="">Blog <i class="bi bi-patch-check"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-container" id="cart-container">
+                <button class="close-button" onclick="closeCart()"><i class="bi bi-arrow-right"></i></button>
+                <button id="clearCartButton" style="display: none;" onclick="clearCart()">Limpar tudo <i class="bi bi-trash-fill"></i></button>
+                <div id="cart-items">
+                </div>
+                <div id="total-price">Total: R$ 0.00</div>
+                <button id="confirmOrderButton" onclick="openOrderOverlay()" style="display: none;">Confirmar <i class="bi bi-check-circle-fill"></i></button>
+            </div>
+        </header>
+        
+        <div class="space-header" id="home"></div>
+    
+        <section class="product-container">
+            <div class="content-product" id="product-container">
+            </div>     
+        </section>
+
+        <div class="carousel">
+            <div class="slider">
+              <div class="slide">
+                <a href=""><img src="" alt=""></a>
+              </div>
+              <div class="slide">
+                <a href=""><img src="" alt=""></a>
+              </div>
+              <div class="slide">
+                <a href="#"><img src="" alt=""></a>
+              </div>
+            </div>
+            <div class="dots-container">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+        </div>
+
+        <footer>
+            <div class="logo-footer">
+                <h1><i class="bi bi-shop"></i>Ecommerce</h1>
+            </div>
+            <div class="socials">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="map-footer">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="">Support </a>
+                <a href="">Blog</a>
+            </div>
+            <h5 class="email"> elias.contact7@gmail.com</h5>
+            <h5 class="copyright">2024 EliasDesignTech. All rights reverved.</h5>
+        </footer>
+        
+        <div class="overlay" id="order-overlay">
+            <div class="order-form">
+                <button class="close-button-overlay" onclick="closeOrderOverlay()"><i class="bi bi-x"></i></button>
+                <h2>Detalhes do Pedido</h2>
+                <div class="input-label">
+                    <label for="fullName">Nome Completo:</label>
+                    <input type="text" id="fullName" placeholder="Seu Nome">
+                </div>
+            
+                <div class="input-label">
+                    <label for="document">Document:</label>
+                    <input type="text" id="document" placeholder="Seu documento">
+                </div>
+            
+                <div class="input-label">
+                    <label for="location">Localização:</label>
+                    <input type="text" id="location" placeholder="Sua Localização">
+                </div>
+            
+                <p>Para prosseguir com o pedido o Whatsapp deve estar conectado em seu dispositivo (Aplicativo ou Web)</p>
+            
+                <button class="btnConfirm" onclick="confirmOrder()">Confirmar Pedido</button>
+                <div id="error-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="./products.js"></script>
+</body>
+</html>

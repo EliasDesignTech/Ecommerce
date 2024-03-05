@@ -1,0 +1,122 @@
+[
+    {
+        "id" : "001",
+        "name": "Placa mãe E790 Gaming",
+        "category": "Placa mae",
+        "brand": "GameBrand",
+        "price": 1870.99,
+        "image": "/img/E790.png",
+        "slide": ["/img/E790.png", "/img/E7902.png", "/img/E7903.png", "/img/E7904.png"],
+        "description": "<h4>Chipset<h4>E790<br><h4>Socket</h4>E5000<br><h4>Storage</h4>1x Slot NVMe PCIe 4.0<br>1x Slot NVMe 3.0<br>2x SATA 7Gb/s<br><h4>RAM</h4>max 128GB(4 Slot)<br><h4>Connectors</h4>1x ATX 24 pin<br>1x ATX 12V 8 pin<br>1x USB 3.2<br>2x USB 2.0<br>1x CPU fan 4 pin<br>3x Chassis fan<br>1x LED RGB 3pin<br>LED RGB 4pin<br>1x Audio<br><h4>Rear Panel</h4>VGA<br>USB 3.2<br>Kayboard/Mouse<br>LAN<br>Button Flash BIOS<br>HDMI<br>DisplayPort<br>USB 2.0<br>USB 3.2"
+    },
+    {
+        "id" : "002",
+        "name": "Placa de vídeo E200 Pro",
+        "category": "Placa de video",
+        "brand": "GameBrand",
+        "price": 4500.85,
+        "image": "/img/E200pro.png",
+        "slide": ["/img/E200pro.png", "/img/E200pro2.png", "/img/E200pro3.png", "/img/E200pro4.png"],
+        "description": "<h4>Interface</h4>PCI Express Gen4<br><h4>Cores</h4>2850 Unidades<br><h4>Memory</h4>10GB<br><h4>Clock</h4>Boost 2500MHz<br><h4>Rear Panel</h4>2x HDMI<br>2x DisplayPort"
+    },
+    {
+        "id" : "003",
+        "name": "Placa mãe E920 GamingPro",
+        "category": "Placa mae",
+        "brand": "HardwareBrand",
+        "price": 2895.72,
+        "image": "/img/E920.png",
+        "slide": ["/img/E920.png", "/img/E9202.png", "/img/E9203.png", "/img/E9204.png"],
+        "description": "<h4>Chipset<h4>E920<br><h4>Socket</h4>E5000/E5500<br><h4>Storage</h4>2x Slot NVMe PCIe 4.0<br>2x SATA 7Gb/s<br><h4>RAM</h4>max 256GB(4 Slot)<br><h4>Connectors</h4>1x ATX 24 pin<br>1x ATX 12V 8 pin<br>1x USB 3.2<br>2x USB 2.0<br>1x CPU fan 4 pin<br>3x Chassis fan<br>1x LED RGB 3pin<br>LED RGB 4pin<br>1x Audio<br><h4>Rear Panel</h4>VGA<br>USB 3.2<br>Kayboard/Mouse<br>LAN<br>Button Flash BIOS<br>HDMI<br>DisplayPort<br>USB 2.0<br>USB 3.2"
+    },
+    {
+        "id" : "004",
+        "name": "Processador C7 9100C",
+        "category": "Processador",
+        "brand": "CPUBrand",
+        "price": 845.90,
+        "image": "/img/C7.png",
+        "slide": ["/img/C7.png", "/img/C72.png", "/img/C73.png", "/img/C74.png"],
+        "description": "<h4>Socket</h4>M2500<br><h4>About</h4>8 Cores<br>15 Threads<br>Clock 5.9Ghz<br>Cache L1 0.8Gb<br>Cache L2 1Gb<br>Cache L3 1.5Gb<br><h4>TDP</h4>58W<br><h4>Temps max</h4>100°C"
+    },
+    {
+        "id" : "005",
+        "name": "Placa de vídeo EX4010",
+        "category": "PLaca de video",
+        "brand": "HardwareBrand",
+        "price": 11040.07,
+        "image": "/img/EX4010.png",
+        "slide": ["/img/EX4010.png", "/img/EX40102.png", "/img/EX40103.png", "/img/EX40104.png"],
+        "description": "<h4>Interface</h4>PCI Express Gen4<br><h4>Cores</h4>2450 Unidades<br><h4>Memory</h4>8GB<br><h4>Clock</h4>Boost 2400MHz<br><h4>Rear Panel</h4>2x HDMI<br>2x DisplayPort"
+    },
+    {
+        "id" : "006",
+        "name": "Water Cooler P1200i",
+        "category": "Water cooler",
+        "brand": "GameBrand",
+        "price": 478.58,
+        "image": "/img/P1200i.png",
+        "slide": ["/img/P1200i.png", "/img/P1200i2.png", "/img/P1200i3.png", "/img/P1200i4.png"],
+        "description": "<h4>Specifications</h4>TDP 180W<br>Socket E5000/E5500/M2500<br>Triple Fan 120mm<br>RPM Fan 2000<br>PWM 4 pin<br>Noise Fan 20dB(A)<br>Voltage 12V<br>ARGB<br><h4>Package Content</h4>Thermal Paste<br>Water Cooler"
+    },
+    {
+        "id" : "007",
+        "name": "Processador P7 17000P",
+        "category": "Processador",
+        "brand": "PowerBrand",
+        "price": 952.75,
+        "image": "/img/P7.png",
+        "slide": ["/img/P7.png", "/img/P72.png", "/img/P73.png", "/img/P74.png"],
+        "description": "<h4>Socket</h4>E5500<br><h4>About</h4>12 Cores<br>20 Threads<br>Clock 7.1Ghz<br>Cache L1 1Gb<br>Cache L2 1.5Gb<br>Cache L3 1.9Gb<br><h4>TDP</h4>65W<br><h4>Temps max</h4>95°C"
+    },
+    {
+        "id" : "008",
+        "name": "Water Cooler W1700",
+        "category": "Water cooler",
+        "brand": "CoolerBrand",
+        "price": 298.00,
+        "image": "/img/W1700.png",
+        "slide": ["/img/W1700.png", "/img/W17002.png", "/img/W17003.png", "/img/W17004.png"],
+        "description": "<h4>Specifications</h4>TDP 100W<br>Socket E5000/E5500/M2500<br>Dual Fan 120mm<br>RPM Fan 2000<br>PWM 4 pin<br>Noise Fan 20dB(A)<br>Voltage 12V<br>ARGB<br><h4>Package Content</h4>Thermal Paste<br>Water Cooler"
+    },
+    {
+        "id" : "009",
+        "name": "Placa de vídeo Alpha100",
+        "category": "Placa de video",
+        "brand": "PowerBrand",
+        "price": 1759.10,
+        "image": "/img/alpha100.png",
+        "slide": ["/img/alpha100.png", "/img/alpha1002.png", "/img/alpha1003.png", "/img/alpha1004.png"],
+        "description": "<h4>Interface</h4>PCI Express Gen4<br><h4>Cores</h4>2850 Unidades<br><h4>Memory</h4>10GB<br><h4>Clock</h4>Boost 2500MHz<br><h4>Rear Panel</h4>2x HDMI<br>2x DisplayPort"
+    },
+    {
+        "id" : "010",
+        "name": "Placa Mãe K570M BoardFull",
+        "category": "Placa mae",
+        "brand": "HardwareBrand",
+        "price": 1250.90,
+        "image": "/img/K570M.png",
+        "slide": ["/img/K570M.png", "/img/K570M2.png", "/img/K570M3.png", "/img/K570M4.png"],
+        "description": "<h4>Chipset<h4>K570M<br><h4>Socket</h4>M2500<br><h4>Storage</h4>1x Slot NVMe PCIe 4.0<br>1x Slot NVMe 3.0<br>2x SATA 7Gb/s<br><h4>RAM</h4>max 128GB(4 Slot)<br><h4>Connectors</h4>1x ATX 24 pin<br>1x ATX 12V 8 pin<br>1x USB 3.2<br>2x USB 2.0<br>1x CPU fan 4 pin<br>3x Chassis fan<br>1x LED RGB 3pin<br>LED RGB 4pin<br>1x Audio<br><h4>Rear Panel</h4>VGA<br>USB 3.2<br>Kayboard/Mouse<br>LAN<br>HDMI<br>DisplayPort<br>USB 2.0<br>USB 3.2"
+    },
+    {
+        "id" : "011",
+        "name": "Mémorias 2x16GB(32GB) E7",
+        "category": "Memorias",
+        "brand": "GameBrand",
+        "price": 574.55,
+        "image": "/img/E7.png",
+        "slide": ["/img/E7.png", "/img/E72.png", "/img/E73.png", "/img/E74.png"],
+        "description": "<h4>LED</h4>RGB<br><h4>Speed</h4>3200MHz<br><h4>About</h4>2x 16GB<br>Temps 0° - 70°C"
+    },
+    {
+        "id" : "012",
+        "name": "Gabinete GamingCase",
+        "category": "Gabinete",
+        "brand": "HardwareBrand",
+        "price": 470.78,
+        "image": "/img/GamingCase.png",
+        "slide": ["/img/GamingCase.png", "/img/GamingCase2.png", "/img/GamingCase3.png", "/img/GamingCase4.png"],
+        "description": "<h4>Specifications</h4>Color Grey<br>Fans 10<br>Support SSD/HDD<br><h4>Front</h4>2x USB<br>HD audio<br><h4>Glass</h4>8mm<br><h4>Font</h4>ATX"
+    }
+]
