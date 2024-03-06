@@ -80,4 +80,6 @@ https://github.com/EliasDesignTech/Ecommerce/assets/122825893/05bedde4-14a2-4744
 
 https://github.com/EliasDesignTech/Ecommerce/assets/122825893/77ff5f27-956a-4326-87d3-0647132cbcea
 
+https://github.com/EliasDesignTech/Ecommerce/assets/122825893/57aed667-ea40-413a-9645-cc175cb35ac4
+
 https://github.com/EliasDesignTech/Ecommerce/assets/122825893/fb99434f-c6da-473c-86d2-ae72b9585314
