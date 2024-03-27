@@ -48,7 +48,7 @@ Após preencher os dados na tela de confirmação, as informações são enviada
 
 <div align="left">
 
-Product slide must have 4 images.
+The product slide must have 4 images.
 
 The slide below the products must have 3 images 1440x450px.
 
