@@ -34,13 +34,13 @@
 
 <div align="left"
 
-As imagens do produto devem ter 4 imagens.
+O slide dos produtos devem ter 4 imagens.
 
-O slide abaixo dos produtos deve conter 3 imagens 1440x450px.
+O slide abaixo dos produtos deve possuir 3 imagens 1440x450px.
 
 Este ecommerce não está conectado a um banco de dados (mas isso pode ser alterado).
 
-Após preencher os dados na tela de confirmação, as informações são enviadas via WhatsApp com link personalizado.
+Após preencher os dados na tela de confirmação, as informações são enviadas via WhatsApp em link personalizado.
 
 </div>
 
@@ -48,7 +48,7 @@ Após preencher os dados na tela de confirmação, as informações são enviada
 
 <div align="left">
 
-Product sldie images must have 4 images.
+Product slide must have 4 images.
 
 The slide below the products must have 3 images 1440x450px.
 
